@@ -1,2 +1,76 @@
-# NETWORKWALKS-AMON-B084-WK4-PM1-PENETRATION-TESTING
-Conducting a black-box penetration testing and vulnerability assessment of a web application, documenting reconnaissance, security testing, findings, and remediation recommendations.
+
+<div align="center">
+
+# Web Application Penetration Testing
+Conducting a black-box penetration test and vulnerability assessment to identify and evaluate security weaknesses in a web application.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-Penetration%20Testing-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Assessment-Black--Box-0070C0?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Focus-Web%20Security-C00000?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Platform-Kali%20Linux-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tool-PenTools-404040?style=flat-square&labelColor=C00000" />  
+  <img src="https://img.shields.io/badge/Testing-Web%20Application-404040?style=flat-square&labelColor=0070C0" />
+  <img src="https://img.shields.io/badge/Platform-GitHub-404040?style=flat-square&labelColor=0070C0&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Program-NetworkWalks-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Week-04-0070C0?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Practice-Ethical%20Hacking-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Mentor-Waqas%20Karim%20(CCIE)-C00000?style=flat-square" />
+</p>
+
+</div>
+
+## 🛡️ Penetration Testing Project Overview
+
+This project documents a **black-box penetration test and vulnerability assessment** of a web application to identify, analyse, and evaluate potential security weaknesses within an authorized testing environment.
+
+The assessment follows a structured five-phase penetration-testing methodology, covering reconnaissance and footprinting, vulnerability assessment and scanning, gaining and maintaining access, covering tracks, and documentation. Each phase involves practical security testing, evidence collection, and analysis to evaluate the target's security posture.
+
+The project aims to demonstrate the practical application of penetration-testing techniques, identify potential security risks, assess their impact, and provide appropriate remediation recommendations to improve the overall security of the target environment.
+
+## 🎯 Penetration Testing Objectives
+
+The primary objectives of this project are to:
+
+- Perform reconnaissance and identify potential attack surfaces.
+- Identify and assess security vulnerabilities within the target environment.
+- Evaluate the effectiveness of existing security controls.
+- Validate identified vulnerabilities through authorized security testing.
+- Assess potential security risks and their impact.
+- Document findings and provide appropriate remediation recommendations.
+
+  
+## 🛡️ Penetration Testing Purpose and Security Scope
+
+This project provides a structured approach to conducting a **black-box penetration test and vulnerability assessment** in an authorized environment.
+
+It supports hands-on security testing in the following areas:
+
+- Reconnaissance and information gathering
+- Network scanning and service enumeration
+- Vulnerability identification and assessment
+- Web application security testing
+- Authorized exploitation and access validation
+- Security analysis, evidence collection, and reporting
+
+**⚠️ Security Notice:** All testing must be conducted within the explicitly authorized scope. Unauthorized access, denial-of-service attacks, social engineering, and testing outside the agreed scope are prohibited.
+
+## ⚙️ Penetration Testing Environment Specifications
+
+| 🧩 Component | ⚙️ Configuration |
+|---|---|
+| 🖥️ Host OS | Kali Linux 2026.3 |
+| 🧠 Host RAM | 8 GB |
+| ⚡ Processor | Intel Core i5 |
+| 🧰 Testing Platform | Kali Linux |
+| 🐉 Security Distribution | Kali Linux 2026.3 |
+| 🔍 Testing Approach | Black-box Penetration Testing |
+| 🌐 Target Domain | medirozahospital.com |
+| 📡 Target IP Address | 199.188.201.16 |
+| 🔓 Open Ports Identified | 80/tcp, 443/tcp |
+| 🌍 Web Server | OpenResty 1.31.1.1 |
+| 🔐 Web Protocols | HTTP / HTTPS |
+| 🛠️ Primary Toolset | PenTools |
+
+
+

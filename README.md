@@ -94,7 +94,7 @@ Retrieve publicly available domain registration details, including registrar inf
 whois medirozahospital.com
 ```
 
-### 1.3 Web Technology Fingerprinting
+**Web Technology Fingerprinting**
 
 Identify publicly detectable technologies and application components, including web server details, frameworks, scripts, and HTTP headers.
 
@@ -102,7 +102,9 @@ Identify publicly detectable technologies and application components, including 
 whatweb medirozahospital.com
 ```
 
-### 1.4 HTTP Response and Header Analysis
+<img width="1366" height="657" alt="Whateweb" src="https://github.com/user-attachments/assets/7a2f8d97-fdc3-4d55-afc1-9cc0d4d0e953" />
+
+**HTTP Response and Header Analysis**
 
 Examine the HTTP response, status code, and response headers to understand how the web server handles incoming requests and communicates with clients.
 
@@ -110,19 +112,45 @@ Examine the HTTP response, status code, and response headers to understand how t
 curl -i https://medirozahospital.com
 ```
 
-### 1.5 Web Application Firewall Detection
+
+**Web Application Firewall Detection**
 
 Determine whether the target is protected by a detectable Web Application Firewall (WAF) and identify its provider, if possible.
 
 ```bash
 wafw00f https://medirozahospital.com
 ```
+<img width="628" height="394" alt="WAF_Pic" src="https://github.com/user-attachments/assets/6af76ee3-1ae0-417f-87cf-0c5060b9d28e" />
 
-### 1.6 DNS Reconnaissance
+**DNS Reconnaissance**
 
 Gather publicly available DNS records and identify associated domain infrastructure, including discovered subdomains and DNS configurations.
 
 ```bash
 dnsrecon -d medirozahospital.com
 ```
+
+## Step 2: Scanning 
+
+Scanning involves examining the target environment to identify reachable hosts, exposed network ports, running services, and potential security weaknesses. This phase helps map the target's externally visible attack surface and provides information for further security assessment.
+
+### Host Discovery
+
+Determine whether the authorized target host is reachable over the network.
+
+```bash
+ping 199.188.201.16
+```
+
+### Port Scanning
+
+Identify open, closed, and filtered ports to understand which network services may be exposed.
+
+### Service and Version Detection
+
+Identify services running on discovered open ports and determine their reported software versions.
+
+### Vulnerability Assessment
+
+Assess identified services for potential known security weaknesses using non-intrusive checks within the authorized testing scope.
 

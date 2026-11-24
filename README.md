@@ -70,4 +70,59 @@ It supports hands-on security testing in the following areas:
 | 🎯 Assessment Focus | Web Application Security |
 
 
+## Step 1: Information Gathering (Reconnaissance and Footprinting)
+
+**Domain Information Lookup**
+
+Identify the target domain's IP address and retrieve basic DNS information to understand how the domain resolves across the internet.
+
+```bash
+nslookup medirozahospital.com
+```
+| Information | Finding |
+|---|---|
+| DNS Server | 8.8.8.8 |
+| Target Domain | medirozahospital.com |
+| Resolved IP | `199.188.201.16` |
+| Local DNS (10.0.0.1) | Request timed out |
+
+**Domain Registration Information**
+
+Retrieve publicly available domain registration details, including registrar information, registration dates, and nameserver records.
+
+```bash
+whois medirozahospital.com
+```
+
+### 1.3 Web Technology Fingerprinting
+
+Identify publicly detectable technologies and application components, including web server details, frameworks, scripts, and HTTP headers.
+
+```bash
+whatweb medirozahospital.com
+```
+
+### 1.4 HTTP Response and Header Analysis
+
+Examine the HTTP response, status code, and response headers to understand how the web server handles incoming requests and communicates with clients.
+
+```bash
+curl -i https://medirozahospital.com
+```
+
+### 1.5 Web Application Firewall Detection
+
+Determine whether the target is protected by a detectable Web Application Firewall (WAF) and identify its provider, if possible.
+
+```bash
+wafw00f https://medirozahospital.com
+```
+
+### 1.6 DNS Reconnaissance
+
+Gather publicly available DNS records and identify associated domain infrastructure, including discovered subdomains and DNS configurations.
+
+```bash
+dnsrecon -d medirozahospital.com
+```
 

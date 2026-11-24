@@ -64,13 +64,10 @@ It supports hands-on security testing in the following areas:
 | ⚡ Processor | Intel Core i5 |
 | 🧰 Testing Platform | Kali Linux |
 | 🐉 Security Distribution | Kali Linux 2026.3 |
-| 🔍 Testing Approach | Black-box Penetration Testing |
+| 🔍 Assessment Type | Black-box Penetration Testing |
 | 🌐 Target Domain | medirozahospital.com |
-| 📡 Target IP Address | 199.188.201.16 |
-| 🔓 Open Ports Identified | 80/tcp, 443/tcp |
-| 🌍 Web Server | OpenResty 1.31.1.1 |
-| 🔐 Web Protocols | HTTP / HTTPS |
 | 🛠️ Primary Toolset | PenTools |
+| 🎯 Assessment Focus | Web Application Security |
 
 
 
